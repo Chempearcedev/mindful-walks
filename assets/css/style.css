@@ -1,0 +1,33 @@
+
+
+.center-box {
+  text-align: center;
+   position: fixed;
+   left: 25%;
+   top: 20%;
+   background-color: #525457;
+}
+.center-text {
+    color: #ffffff;
+}
+
+body {
+    background-color: #a9a7f8;
+}
+
+.gallery {
+position : absolute;
+bottom : 30px;
+}
+
+.footer {
+    background-color: #8482ff;
+}
+
+.circle-image {
+    position: absolute;
+    bottom: 40%;
+}
+
+
+
