@@ -1,33 +1,84 @@
 
-
-.center-box {
-  text-align: center;
-   position: fixed;
-   left: 25%;
-   top: 20%;
-   background-color: #525457;
-}
 .center-text {
-    color: #ffffff;
+   color: #004e7c;
+   font-family:'shadows Into Light Two', cursive;
+   font-size: 30px;
+   margin-top: 200px;
+   text-align: center;
 }
 
 body {
-    background-color: #a9a7f8;
+    background-color: #dce1e3;
 }
 
 .gallery {
-position : absolute;
-bottom : 30px;
+    position: relative;
+    top: 0;
 }
 
+
 .footer {
-    background-color: #8482ff;
+    background-color: #ffffff;
 }
 
 .circle-image {
-    position: absolute;
-    bottom: 40%;
+    float: left;  
+    margin: 5px; 
 }
+
+.center-box-2  {
+  text-align: center;
+   position: fixed;
+   top: 10%;
+   right: 30%;
+   background-color: #525457;
+}
+.container {
+    align-content: flex-end;
+    position: center;
+    margin-bottom: 20%;
+}
+
+p {
+    font-size: 25px; 
+    text-align: center;
+}
+
+.walking-header  {
+   background-color: #004e7c;
+   color: #ffffff;
+}
+
+.card {
+    display: inline-block;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .walking-header {
+       font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        left: 0;
+        right: 0;
+    }
+}
+@media (max-width: 600px) {
+  div.gallery {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
 
 
 
