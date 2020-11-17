@@ -1,80 +1,112 @@
-/*styling for front*/
-.center-text {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Quando&family=Xanh+Mono&display=swap');
+
+.fa-facebook-official {
+    float: right;
+    padding-right: 15px;
+}
+
+.header-1 {
+    text-align: center;
+    top: 50px;
+}
+
+.first-header {
    color: #004e7c;
-   font-family: 'Quando', serif;
+   font-family: 'Montserrat', sans-serif;
    font-size: 30px;
-   margin-top: 150px;
+   top: 5px;
    text-align: center;
+   float: right;
+   padding: 30px;
+   position: absolute;
+}
+
+.text-center {
+    position: relative;
+    height: 20%; 
 }
 
 .gallery {
-    margin-top: 100px;
+    top: 100px;  
 }
 
 body {
-    background-color: #dce1e3;
-    margin: 0px;
+    background-color: #ededed;
 }
-
 .footer {
     background-color: #ffffff;
 }
 /*styling for about page*/
-.about-image {
-    float: left;  
-    margin: 0px; 
-    position: absolute;
-}
 
-.about-text p {
-    text-align: center;
-    float: right;
-    position: relative;
-    overflow: hidden;
+.about-header   {
+    color: #004e7c;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+     padding-left: 30px;
+    margin-left: 10px;
+    display:inline-block;
 }
 
 h2 {
-    text-align: center;
-    color: #004e7c;
-}
-
-.mo-pic img {
     text-align: left;
-}
-.contact-info {
-    margin-left: 0;
-    margin-right: 0;
-    display: inline-block;
-    text-align: center;
+       padding: 10px;
+    margin-left: 10px;
 }
 
-.display-bottom div {
-    position:absolute;
+.about-info p {
+     display: block;
+    padding: 30px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif; 
 }
+
+.video {
+float: right;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 .about-us-info div {
-    position: relative;
-    bottom: -200px;
+    bottom: -100px;
+    display: block;
 }
 /*styling for walking info*/
 .walking-header  {
     color: #004e7c;
-   font-family: 'Quando', serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.walking-p {
+    text-align: center;
 }
 
 .walking-info {
     padding: 6px;
 }
 
-@media screen and (max-width: 600px) {
-    .walking-header {
-       font-size: 1.2rem;
-    }
+.card-title {
+    text-align: center;
+    color:  #004e7c;
 }
 
+/*mobile  device style*/
+
 
 @media screen and (max-width: 600px) {
-     img {
-       display: none;
+   .front-page {
+       display: block;
+          }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        left: 0;
+        right: 0;
     }
 }
 
@@ -84,14 +116,22 @@ h2 {
        color:  #004e7c;
     }
 }
+
 @media screen and (max-width: 600px) {
-    .navbar {
-        left: 0;
-        right: 0;
+    .walking-header {
+       font-size: 1.2rem;
     }
 }
+
 @media (max-width: 600px) {
-  div.gallery {
+  .walking-info {
+    display: block;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .card-deck {
     display: none;
   }
 }
