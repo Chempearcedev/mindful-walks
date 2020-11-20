@@ -28,17 +28,14 @@ padding : 0;
   margin-bottom: 70px;
 }
 
+ img {
+    opacity: 0.8;
+}
+
 .footer {
     background: #fdfff5;
 }
 /*styling for about page*/
-
-
-h2 {
-    text-align: left;
-       padding: 10px;
-    margin-left: 10px;
-}
 
 .about-info p {
      display: block;
@@ -58,10 +55,6 @@ h2 {
 
 .about-mo {
     color: #ffffff;
-}
-
- img {
-    opacity: 0.8;
 }
 
 .card-text {
@@ -88,6 +81,10 @@ h2 {
     display: block;
 }
 
+.picture {
+    position: right 0px;
+}
+
 .page-3 {
     background-color: #f4f2f3;
 }
@@ -103,39 +100,11 @@ h2 {
 }
 /*mobile  device style*/
 
-
-@media screen {
-     .card-body div {
-       display: none;
-    }
-}
-
-
-@media screen  {
-     .about-us-info {
-       text-decoration: underline;
-       color:  #004e7c;
-    }
-}
-
 @media screen  {
     .walking-header {
        font-size: small;
     }
 }
-
-@media only screen and (max-width: 600px){
-   .walks-block  {
-display: block;
-    }
-}
-
-@media only screen and (max-width: 800px){
-   .dog-pic  {
-display: none;
-    }
-}
-
 
 
 
