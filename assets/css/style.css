@@ -36,6 +36,14 @@ padding : 0;
     background: #fdfff5;
 }
 /*styling for about page*/
+.page-header {
+        color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: #2a9df4;
+
+}
 
 .about-info p {
      display: block;
@@ -46,15 +54,13 @@ padding : 0;
     text-decoration: underline;
 }
 
-.about-header {
-     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: #2a9df4;
-}
-
 .about-mo {
     color: #ffffff;
+}
+
+.mo-pic {
+    margin-top: 30px;
+    overflow: hidden;
 }
 
 .card-text {
@@ -63,41 +69,28 @@ padding : 0;
  .about-info {
      color: #ffffff;
  }
-/*styling for walking info*/
-.walking-header  {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: #2a9df4;
+
+ /*styling for walking info*/
+section {
+    width: 100%;
 }
+
 .walking-p {
     text-align: center;
 }
 
-
 .card-title {
     text-align: center;
     color:  #004e7c;
-    display: block;
 }
-
-.picture {
-    position: right 0px;
-}
-
 .page-3 {
     background-color: #f4f2f3;
 }
 
-.walk-paragraph {
-    margin-top: 150px;
-    font-size: large;
+h5 {
+    padding: 5px;
 }
 
-.walks-media {
-    margin-right: 20px;
-    padding-right: 20px;
-}
 /*mobile  device style*/
 
 @media screen  {
@@ -106,8 +99,35 @@ padding : 0;
     }
 }
 
+@media only screen and (max-width: 600px) {
+  .walking-paragraph {
+    font-size: small;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .walking-paragraph {
+    font-size: small;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .picture {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mo-pic {
+      height: 200px;
+  }
+}
 
 
 
