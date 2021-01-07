@@ -16,17 +16,9 @@ The goal for this website is to ifluence individuals and vunerable groups of peo
 
 Each walk is free to enable access to everyone.
 
->## *Groups*
+># Groups
 <br>
-
-
-|Name of Group |Purpose to target this group|   
-|----|-----|-------| 
-| Over 50's    |Providing social walks to decrease loneliness |
-| Mental Health Group |Providing physical activity to increase mental wellbeing|
-| Physical and Learning difficulties    |Providing free physical activity that supports this groups needs, mindful of duration and ease of walk.|
-| Families   |Providing a free activity to families that want to increase their families physical activity |
-<br>
+<hr>
 
 >### *Over 50's*
 
