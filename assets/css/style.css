@@ -1,4 +1,5 @@
 
+
 /*Front page styling*/
 
 
@@ -18,18 +19,29 @@ padding : 0;
 .first-header {
    color: #ffffff;
    font-family: 'Montserrat', sans-serif;
-   font-size: 30px;
+   font-size: 45px;
    text-align: center;
-   top: 100px;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
 }
 
-.carousel {
-  top: 50px;
-  margin-bottom: 70px;
-}
 
  img {
     opacity: 0.8;
+}
+
+.facts {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.stats-title {
+    color: #ff3c38;
+    text-align: center;
 }
 
 .footer {
@@ -70,9 +82,11 @@ padding : 0;
      color: #ffffff;
  }
 
+
  /*styling for walking info*/
 section {
     width: 100%;
+    padding: 0%;
 }
 
 .walking-p {
@@ -93,10 +107,22 @@ h5 {
 
 /*mobile  device style*/
 
-@media screen  {
-    .walking-header {
-       font-size: small;
-    }
+
+
+@media only screen and (min-width: 768px) {
+  .first-header {
+      width: 500px;
+      margin-bottom: 100px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .carousel-items {
+      margin-top: 30px;
+      margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -108,12 +134,9 @@ h5 {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .walking-paragraph {
-    font-size: small;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    overflow: hidden;
+@media only screen and (min-width: 600px) {
+  .box {
+      margin-bottom: 30px;
   }
 }
 
@@ -129,11 +152,8 @@ h5 {
   }
 }
 
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 990px) {
+  .about-mo {
+      font-size: 120%;
+  }
+}
